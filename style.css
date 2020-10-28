@@ -39,7 +39,7 @@ li > a {
 }
 
 .card {
- background-color: rgba(243,172,195, 0.5);
+ background-color: rgba(243,172,195, 0.6);
  box-shadow: 4px 4px 30px rgba(0,0,0, 0.2);
  border-radius: 4px;
  margin: 10px;
