@@ -1,0 +1,87 @@
+body {
+  color: #595b83;
+  background-color: #F6F9FC;
+  font-family: 'Playfair Display', serif;
+  line-height: 2;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2, p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+a {
+  color: #595b83;
+  font-family: 'Playfair Display', serif;
+  line-height: 2;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+li > a {
+  font-size: 40px;
+}
+
+
+.container {
+  background-color: #F6F9FC;
+  width: 600px;
+  margin: 0px auto;
+}
+
+.image-circle {
+  border-radius: 50%;
+  box-shadow: 4px 4px 30px rgb(89,91,131);
+  width: 50%;
+}
+
+.card {
+ background-color: rgba(243,172,195, 0.5);
+ box-shadow: 4px 4px 30px rgba(0,0,0, 0.2);
+ border-radius: 4px;
+ margin: 10px;
+ padding: 50px;
+}
+.btn-pink {
+ background-color: rgb(243,172,195);
+ padding: 10px;
+ margin: 20px;
+ border-radius: 4px;
+ box-shadow: 4px 4px 30px rgba(0,0,0, 0.1);
+}
+
+.btn-pink:hover {
+  background-color: rgb(243,172,195,0.8);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
